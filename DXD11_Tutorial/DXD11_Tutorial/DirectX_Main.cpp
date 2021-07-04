@@ -8,5 +8,6 @@ int APIENTRY wWinMain(
 	_In_ int nCmdShow)
 {
 	ErrorLogger::Log(E_INVALIDARG, "TEST");
+	int a = 10;
 	return 0;
 }
